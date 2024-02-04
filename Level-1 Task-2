@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-developers</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: aqua;
+
+        }
+        header{
+            background-color: wheat;
+            color: black;
+            text-align: center;
+            padding: 1rem;
+        }
+        section{
+            width: 80%;
+            margin: 2rem auto;
+            text-align: center;
+        }
+        .main-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .left-column,.rightcolumn{
+            flex: 1;
+            padding: 2rem;
+            background-color:rgb(0, 234, 255);
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin: 1rem;
+        }
+        .sign{
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: antiquewhite;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+
+        }
+        .sign:hover{
+            background-color: red;
+        }
+        footer{
+            background-color: greenyellow;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your landing page</h1>
+        <p>Welcome to a creative and user-friendly experience </p>
+    </header>
+    <section>
+        <div class="main-content">
+            <div class="left-column">
+             <h2>About us</h2>
+             <p>About Eco-developers
+                Welcome to Eco-developers, where our mission is to get the best services for our clients and you will get best lifetime experience working with us.We are dedicated to give best work.Our commitment to this mission drives every decision we make, inspiring us to deliver exceptional services and products
+                At Eco-developers, we believe in team-work and customer satisfaction is the best satisfaction. Established in 1999, we embarked on a journey to an exceptional change in IT industry with best services.</p>
+            </div>
+            <div class="right-column">
+                <h2>Join us now</h2>
+                <p>Sign up today to explore exciting opportunities,advantages and benefits</p>
+                <a href="#" class="sign">Sign up </a>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Your Landing Page.All rights reserved. </p>
+    </footer>
+</body>
+</html>
